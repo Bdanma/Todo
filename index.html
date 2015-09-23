@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>Agenda</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+
+	<body>
+		<h1>Agenda de actividades</h1>
+		<p>No te pasa a menudo que no recuerdas que vas a hacer, que ya haz hecho y a veces quieres hacer cosas que ya hiciste? Bueno, a todos nos pasa mas de alguna vez. Es mucho mas facil si guardas tus actividades en una agenda. Pero usar papel y pluma (aparte de ser malo para el ambiente) te hace ver anticuado. Esta es una agenda para que guardes tus acividades, con la capacidad de marcar lo que ya hiciste o borrar lo que yo no vas a necesitar. Para facilitarte la vida.</p>
+
+		<button class="btn btn-primary" id="empezar">Comenzar</button>
+		<button class="btn btn-primary" id="finalizar">Finalizar</button>
+
+		<div class="todo">
+			<h3>Ingresa los datos de la actividad a guardar</h3>
+
+			<form>
+				<div>
+					<label>Actividad</label>
+					<input class="form-control" id="acti">
+				</div>
+
+				<div>
+					<label>Fecha</label>
+					<input class="form-control" id="fech">
+				</div>
+
+				<div>
+					<label>Hora</label>
+					<input class="form-control" id="hora">
+				</div>
+
+				<div>
+					<label>Descripcion</label>
+					<input class="form-control" id="desc">
+				</div>
+				<h1></h1>
+				<h1></h1>
+				<div>
+					<button class="btn btn-primary">Agregar tarea</button>
+				</div>
+			</form>
+
+			<div>
+				<button class="btn btn-primary" id="borrar">Eliminar todo</button>
+			</div>
+
+			<div>
+				<label> Leyenda </label>
+			</div>
+
+			<div>
+				<img src="images/rojo.jpg"> No finalizado </label>
+			</div>
+
+			<div>
+				<img src="images/verde.jpg"> Finalizado </label>
+			</div>
+
+			<table class="agenda table table-striped">	
+			</table>
+		</div>
+
+		<script src="scripts/jquery-1.11.3.js"></script>
+		<script src="scripts/scripts.js"></script>
+
+	</body>
+</html>

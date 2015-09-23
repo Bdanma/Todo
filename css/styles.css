@@ -1,0 +1,43 @@
+.todo {
+	display: none;
+}
+body {
+	background-color: DFF2FF; 
+	color: #000000;
+}
+
+div {
+	margin: 5px;
+}
+
+input {
+	color: #000000;
+}
+
+button { 
+  border: 1px solid #dedede;
+  border-radius: 50px;
+  color: #000000;
+  display: inline-block;
+  font: bold 16px/16px HelveticaNeue, Arial;
+  padding: 8px 11px;
+  text-decoration: none;
+}
+
+
+td {
+	color: FF6565;
+}
+
+.hecho {
+	color: 267D00;
+}
+
+.marcarDeshecho {
+	display:none;
+}
+
+img {
+	height: 20px;
+	width: 30px;
+}
